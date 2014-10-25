@@ -9,7 +9,11 @@ self.onactivate      = e => { log(e) }
 self.onfetch         = e => { log(e) }
 self.onbeforeevicted = e => { log(e) }
 self.onevicted       = e => { log(e) }
+self.ongeofenceenter = e => { log(e) }
+self.ongeofenceleave = e => { log(e) }
 self.onmessage       = e => { log(e) }
+self.onpush          = e => { log(e) }
+self.onsync          = e => { log(e) }
 
 
 
